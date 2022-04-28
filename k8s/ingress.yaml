@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Ingress
+metadata:
+ name: java-ingress
+ namespace: java-space
+spec:
+ rules:
+ - host: java.sathishji.xyz
+   http:
+     paths:
+     - path:
+       backend:
+         serviceName: java-service
+         servicePort: 80

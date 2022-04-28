@@ -7,12 +7,12 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>java-webapp</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>Sathish Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
